@@ -1,0 +1,21 @@
+name: Pub
+
+on: 
+ push:
+    branches: [main]
+  jobs:
+    Publish:
+    # needs: UpdateS1
+      runs-on: ubuntu-lates
+      steps:
+        - uses: actions/checkout@v2
+        - name: Logseq Publish 🚩
+          uses: pengx17/logseq-publish@v0.1
+        - name: add a nojekyll file # to make sure asset paths are correctly identified
+          run: touch $GITHUB_WORKSPACE/www/.nojekyll
+        - name: Deploy 🚀
+          uses: JamesIves/github-pages-deploy-action@4.1.9
+          with:
+            branch: gh-pages # The branch the action should deploy to.
+            folder: www # The folder the action should deploy.
+            clean: true
