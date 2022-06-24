@@ -65,24 +65,12 @@
  {:block/name "jun 20th, 2022",
   :block/created-at 1655857010648,
   :block/updated-at 1655862792099}
- {:block/name "jun 21st, 2022",
-  :block/created-at 1656045253871,
-  :block/updated-at 1656045253871}
- {:block/name "jun 23rd, 2022",
-  :block/created-at 1656045272831,
-  :block/updated-at 1656045290265}
- {:block/name "jun 24th, 2022",
-  :block/created-at 1656055088492,
-  :block/updated-at 1656055114001}
  {:block/name "jun 3rd, 2022",
   :block/created-at 1655381410897,
   :block/updated-at 1655381410897}
  {:block/name "jun 4th, 2022",
   :block/created-at 1655381410924,
   :block/updated-at 1655381410924}
- {:block/name "jun 7th, 2022",
-  :block/created-at 1656045317342,
-  :block/updated-at 1656045330881}
  {:block/name "jun 9th, 2022",
   :block/created-at 1655381411064,
   :block/updated-at 1655381411064}
